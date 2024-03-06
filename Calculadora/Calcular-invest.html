@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calcular-investimentos.css">
+    <title>Invest Plains</title>
+</head>
+<body>
+    <section class="navigation-bar">
+       
+    </section>
+    <section class="container">
+        <h1>Calcular Investimentos</h1>
+        <form id="formulario">
+            <label for="tipo">Escolha o tipo de investimento </label>
+                <select name="tipo" id="tipo">
+                    <option value="">Escolha</option>
+                    <option value="CDB">CDB</option>
+                    <option value="LCI/ LCA">LCI/ LCA</option>
+                    <option value="CRI/CRA">CRI/CRA</option>
+                    <option value="Tesouro Direto">Tesouro Direto</option>
+                    <option value="Debêntures">Debêntures</option>
+                    <option value="Fundos de Invesimentos">Fundos de Invesimentos</option>
+                    <option value="LC">LC</option>
+              </select>
+            <label for="renda" name="renda" >Renda Mensal</label>
+            <input type="text" id="renda">
+            <label for="tempo" name="tempo" >Prazo do Investimento</label>
+            <input type="text" id="tempo">
+            <button type="submit" id="button">submit</button>
+            
+        </form>
+        <div id="resultado"></div>
+    </section>
+    
+</body>
+</html>
