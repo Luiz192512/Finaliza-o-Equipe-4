@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+
+header{
+    padding: 40px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 50px;
+    width: 50%;
+    text-align: right;
+    font-size: 17px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 25px;
+     
+}
+
+.menu a:hover{
+    color: #93E55F;
+}
+
+.menu-suspenso{
+    float: right;
+    overflow: hidden;
+}
+
+.texto{
+    position: relative;
+    margin-top: 90px;
+    font-size: 1.4rem;
+    
+}
+
+.texto h1{
+    display: flex;
+    color: #93E55F;
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin: 20px 0px 20px;
+    line-height: 1.3;
+}
+
+.texto h2{
+    display: flex;
+    font-size: 1.6rem;
+    margin: 20px 0px 20px;
+    line-height: 1.3;
+    color: #93E55F;
+
+}
+
+.texto p{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 620px;
+    max-width: 100%;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.img{
+    right: 300px;
+    position: absolute;
+    float: right;
+    margin-bottom: 50%;
+}
