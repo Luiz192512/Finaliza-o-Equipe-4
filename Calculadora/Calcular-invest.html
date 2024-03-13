@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calcular-investimentos.css">
+    <title>Invest Plans</title>
+</head>
+<body>
+    <section class="navigation-bar">
+       
+    </section>
+    <div class="container">
+        <h1>Calcular Investimentos</h1>
+            
+                <form id="formulario">
+                    <label for="valorInicial">Valor Inicial (R$):</label>
+                    <input type="number" id="valorInicial" placeholder="Digite o valor inicial">
+                    <label for="invest-mensal">investimento Mensal:</label>
+                    <input type="number" id="invest-mensal" placeholder="Digite o valor investido mensal">
+                    <label for="range">Período (meses):</label>
+                    <input type="range" id="range" min="1" max="30" value="12" step="1" oninput="document.getElementById('meses').innerText = this.value">
+                    <div id="meses">12</div>
+                    <button onclick="calcularInvestimento()">Calcular</button>
+                    <p id="resultado"></p>
+                   
+            </div>
+        </form>
+        
+    </div>
+    
+</body>
+</html>
