@@ -12,6 +12,7 @@ header {
 }
 h1, h2 {
     color: #93E55F;
+    font-size: 30px;
     margin: 10px 0;
 }
 .container {
@@ -19,9 +20,11 @@ h1, h2 {
     max-width: 800px;
     margin: 100px auto;
     padding: 0 20px;
+    font-size: 20px;
 }
 p {
     line-height: 1.5;
+    font-size: 20px;
 }
 
 h1 {
